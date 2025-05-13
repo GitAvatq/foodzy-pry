@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/proudcts.css">
+    <link rel="stylesheet" href="../styles/media/products-media.css">
+    <title>Products</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header-top-nav navbar-default navbar-sticky">
+
+                    <div class="cr-category-toggle">
+                        <button class="toggle"><img src="../assets/home-1/icon/Icon.png" alt="icon"></button>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__item__link" href="../home.html">Home</a></li>
+                            <li class="nav__item"><select class="nav__select" onchange="location = this.value">
+                                    <option value="product">Category</option>
+                                    <option value="./categories-2.html">Desserts</option>
+                                    <option value="./categories-3.html">Fruits</option>
+                                </select>
+                            </li>
+                            <li class="nav__item"><select class="nav__select short-prdct" onchange="location = this.value">
+                                    <option value="products">Products</option>
+                                    <option value="./Pages/products.html">Products All</option>
+                                </select></li>
+                            <li class="nav__item"><select class="nav__select">
+                                    <option value="product" onchange="location = this.value">Pages</option>
+                                </select></li>
+                            <li class="nav__item"><select class="nav__select short" onchange="location = this.value">
+                                    <option value="../Pages/blogs.html">Blogs</option>
+                                    <option value="../Pages/blogs.html">Our Blogs</option>
+                                </select></li>
+                            <li class="nav__item"><select class="nav__select">
+                                    <option value="product">Elements</option>
+                                </select></li>
+                        </ul>
+                    </nav>
+                    <div class="phone__number">
+                        <a class="phone-num-link" href="tel:+123(456)(7890)">+123(456)(7890)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header__main__wrapper">
+            <div class="container">
+                <div class="header__main">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="../assets/logos/logo.svg" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="search__items">
+                        <input class="search__inpt" type="text" placeholder="Search For items...">
+                        <select class="custom__select">
+                            <option value="all" selected>All Categories</option>
+                            <option value="dish">Main Dish</option>
+                            <option value="breakfast">Break Fast</option>
+                            <option value="dessert">Dessert</option>
+                            <option value="breakfast">Breakfast Food</option>
+                        </select>
+                        <a href="#" class="search_icon">
+                            <ion-icon name="search"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="bar">
+                        <div class="row">
+                            <a class="nav-page-link" href="../Pages/account-page.html">
+                                <svg class="bar-icon">
+                                    <use href="/assets/home-1/icon/sprite.svg#usser-icon" />
+                                </svg>
+                                <p>Account</p>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a class="nav-page-link" href="">
+                                <svg class="bar-icon">
+                                    <use href="/assets/home-1/icon/sprite.svg#heart" />
+                                </svg>
+                                <p>Wishlist</p>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a class="nav-page-link" href="">
+                                <svg class="bar-icon">
+                                    <use href="/assets/home-1/icon/sprite.svg#shop-icon" />
+                                </svg>
+                                <p>Cart</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-open-bar">
+        <div class="container">
+            <div class="open-bar-wrapper">
+                <div class="nav-left-box">
+                    <div class="sider-bars" id="toggleSidebar" class="hamburger">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_12329_16811)">
+                                <path
+                                    d="M15.25 3V4.66667H14.4167L10.25 10.9167V18H5.25V10.9167L1.08333 4.66667H0.25V3H15.25ZM3.08333 4.66667L6.91667 10.4167V16.3333H8.58333V10.4167L12.4167 4.66667H3.08333Z"
+                                    fill="black" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_12329_16811">
+                                    <rect width="20.48" height="20" fill="white"
+                                        transform="matrix(1 0 0 -1 0.25 20.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                    <div class="sider-bars">
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.41667 5.83333H6.08333V9.16667H9.41667V5.83333ZM11.0833 5.83333V9.16667H13.5833V5.83333H11.0833ZM9.41667 13.3333V10.8333H6.08333V13.3333H9.41667ZM11.0833 13.3333H13.5833V10.8333H11.0833V13.3333ZM9.41667 1.66667H6.08333V4.16667H9.41667V1.66667ZM11.0833 1.66667V4.16667H13.5833V1.66667H11.0833ZM4.41667 5.83333H1.91667V9.16667H4.41667V5.83333ZM4.41667 13.3333V10.8333H1.91667V13.3333H4.41667ZM4.41667 1.66667H1.91667V4.16667H4.41667V1.66667ZM1.08333 -9.53674e-07H14.4167C14.65 -9.53674e-07 14.8472 0.080555 15.0083 0.241666C15.1694 0.402777 15.25 0.599999 15.25 0.833333V14.1667C15.25 14.4 15.1694 14.5972 15.0083 14.7583C14.8472 14.9194 14.65 15 14.4167 15H1.08333C0.85 15 0.652778 14.9194 0.491667 14.7583C0.330556 14.5972 0.25 14.4 0.25 14.1667V0.833333C0.25 0.599999 0.330556 0.402777 0.491667 0.241666C0.652778 0.080555 0.85 -9.53674e-07 1.08333 -9.53674e-07Z"
+                                fill="black" />
+                        </svg>
+
+                    </div>
+                    <div class="sider-bars">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_12329_16817)">
+                                <path
+                                    d="M6.91667 3.83332H15.25V5.49999H6.91667V3.83332ZM6.91667 7.16666H11.9167V8.83332H6.91667V7.16666ZM6.91667 12.1667H15.25V13.8333H6.91667V12.1667ZM6.91667 15.5H11.9167V17.1667H6.91667V15.5ZM0.25 3.83332H5.25V8.83332H0.25V3.83332ZM1.91667 5.49999V7.16666H3.58333V5.49999H1.91667ZM0.25 12.1667H5.25V17.1667H0.25V12.1667ZM1.91667 13.8333V15.5H3.58333V13.8333H1.91667Z"
+                                    fill="black" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_12329_16817">
+                                    <rect width="20.48" height="20" fill="black"
+                                        transform="matrix(1 0 0 -1 0.25 20.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                    <p class="bar-message">We found 29 items for you!</p>
+                </div>
+                <div class="nav-right box">
+                    <div class="sort">
+                        <span>Sort by :</span>
+                        <select class="nav__select">
+                            <option value="product">Featured</option>
+                            <option value="./categories-2.html">Desserts</option>
+                            <option value="./categories-3.html">Fruits</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="section">
+        <div class="container">
+            <div class="pop-product-wrapper">
+                <div id="sidebar" class="sidebar">
+                    <h3 class="side-bar-title">Product Category</h3>
+                    <label><input type="checkbox"> Juice & Drinks <span>[20]</span></label><br>
+                    <label><input type="checkbox"> Dairy & Milk <span>[54]</span></label><br>
+                    <label><input type="checkbox"> Snack & Spice <span>[64]</span></label>
+
+                    <hr>
+
+                    <h3>Filter By Price</h3>
+                    <div class="range-slider">
+                        <input type="range" class="slider-input" min="0" max="100" value="50">
+
+                        <p><strong>Price :</strong> $20 - $250</p>
+                        <button class="filter-btn">Filter</button>
+                    </div>
+
+                    <hr>
+
+                    <h3>Product Category</h3>
+                    <label><input type="checkbox"> Blue <span class="dot blue"></span></label><br>
+                    <label><input type="checkbox"> Yellow <span class="dot yellow"></span></label><br>
+                    <label><input type="checkbox"> Red <span class="dot red"></span></label>
+
+                    <hr>
+
+                    <h3>Weight</h3>
+                    <label><input type="checkbox"> 2kg Pack</label><br>
+                    <label><input type="checkbox"> 20kg Pack</label><br>
+                    <label><input type="checkbox"> 30kg Pack</label>
+
+                    <hr>
+
+                    <h3>Products Tags</h3>
+                    <div class="tags">
+                        <span>Vegetables</span>
+                        <span>Juice</span>
+                        <span>Food</span>
+                        <span>Dry Fruits</span>
+                        <span>Vegetables</span>
+                        <span>Juice</span>
+                    </div>
+                </div>
+
+                <div class="pop-product-content">
+
+                    <div class="show-products-content show-products-content-vegetables hidder">
+                        <div class="gray-bg">
+                            <img class="product-imgs" src="../assets/home-2/images/1.png" alt="img">
+                        </div>
+                        <p class="option-products">Vegetables</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+
+                    <div class="show-products-content show-products-content-snacks hidder">
+                        <div class="gray-bg">
+                            <img class="product-imgs" src="../assets/home-2/images/2.png" alt="img">
+                        </div>
+                        <p class="option-products">Snakcs</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-fruits hidder">
+                        <div class="gray-bg">
+                            <img class="product-imgs" src="../assets/home-2/images/3.png" alt="img">
+                        </div>
+                        <p class="option-products">Fruits</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-fruits hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/home-2/images/4.png" alt="img">
+                        </div>
+                        <p class="option-products">Fruits</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-snacks hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/home-2/images/5.png" alt="img">
+                        </div>
+                        <p class="option-products">Snacks</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-bakery hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/home-2/images/6.png" alt="img">
+                        </div>
+                        <p class="option-products">Bakery</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-bakery hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/product-page/products-detail.png" alt="img">
+                        </div>
+                        <p class="option-products">Bakery</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-bakery hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/product-page/product-d-balery.png" alt="img">
+                        </div>
+                        <p class="option-products">Bakery</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-bakery hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/product-page/product-d-bakery.png" alt="img">
+                        </div>
+                        <p class="option-products">Bakery</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-bakery hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/home-2/images/3.png" alt="img">
+                        </div>
+                        <p class="option-products">Bakery</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-bakery hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/home-2/images/2.png" alt="img">
+                        </div>
+                        <p class="option-products">Bakery</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                    <div class="show-products-content show-products-content-bakery hidder">
+                        <div class="gray-bg">
+
+                            <img class="product-imgs" src="../assets/home-2/images/1.png" alt="img">
+                        </div>
+                        <p class="option-products">Bakery</p>
+                        <div class="rating-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                        <h3 class="pop-products-name-title">Fresh organic villa farm lomon
+                            500gm pack</h3>
+
+                        <div class="price-list">
+                            <h3 class="disc-price">$120.25</h3>
+                            <h4 class="old-price">$123.25</h4>
+                        </div>
+                        <button class="cart-button">
+                            <img src="../assets/home-2/icon/block-icon.svg" alt="Cart icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="../assets/logos/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <p class="about-descr footer-link-items">
+                        FoodTrove is the biggest market of grocery products. Get your daily needs from our store.
+                    </p>
+                    <p class="footer-link-items"><span class="f-i-wrapper"><svg class="icon-footer">
+                                <use href="../assets/home-1/icon/sprite.svg#location" />
+                            </svg></span>51 Green St.Huntington ohaio beach ontario, NY
+                        11746 KY 4783, USA.
+                    </p>
+                    <p class="footer-link-items"><span class="f-i-wrapper"><svg class="icon-footer">
+                                <use href="../assets/home-1/icon/sprite.svg#email" />
+                            </svg></span>example@email.com
+                    </p>
+                    <p class="footer-link-items"><span class="f-i-wrapper"><svg class="icon-footer">
+                                <use href="../assets/home-1/icon/sprite.svg#call" />
+                            </svg></span>+91 123 4567890
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="link-title">Company</h4>
+                    <ul class="footer-section-hr">
+                        <li><a class="footer-link-items" href="./about.html">About Us</a></li>
+                        <li><a class="footer-link-items" href="#">Delivery Information</a></li>
+                        <li><a class="footer-link-items" href="#">Privacy Policy</a></li>
+                        <li><a class="footer-link-items" href="#">Terms & Conditions</a></li>
+                        <li><a class="footer-link-items" href="#">contact Us </a></li>
+                        <li><a class="footer-link-items" href="#">Support Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-categories">
+                    <h4 class="categories-title">Category</h4>
+
+                    <ul class="footer-section-hr">
+                        <li><a class="footer-link-items" href="#">Dairy & Bakery</a></li>
+                        <li><a class="footer-link-items" href="#">Fruits & Vegetable</a></li>
+                        <li><a class="footer-link-items" href="#">Snack & Spice</a></li>
+                        <li><a class="footer-link-items" href="#">Juice & Drinks</a></li>
+                        <li><a class="footer-link-items" href="#">Chicken & Meat</a></li>
+                        <li><a class="footer-link-items" href="#">Fast Food</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>Subscribe Our Newsletter</h4>
+                    <form>
+                        <input class="f-inpt" type="text" placeholder="Search here...">
+                    </form>
+                    <div class="footer-social">
+                        <a href="#"><img class="f-icons-bl" src="../assets/home-1/icon/fbook.svg" alt="Facebook"></a>
+                        <a href="#"><img class="f-icons-bl" src="../assets/home-1/icon/twtr.svg" alt="Twitter"></a>
+                        <a href="#"><img class="f-icons-bl" src="../assets/home-1/icon/ball.svg" alt="Icon"></a>
+                        <a href="#"><img class="f-icons-bl" src="../assets/home-1/icon/inst.svg" alt="Instagram"></a>
+                        <div class="footer-thumbnails">
+                            <img src="../assets/home-1/images/footer-img1.png" alt="Product 1">
+                            <img src="../assets/home-1/images/footer-img2.png" alt="Product 2">
+                            <img src="../assets/home-1/images/footer-img3.png" alt="Product 3">
+                            <img src="../assets/home-1/images/footer-img4.png" alt="Product 4">
+                            <img src="../assets/home-1/images/footer-img5.png" alt="Product 5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span>Foodzy</span> , All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <br><br><br><br><br>
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar'); // кнопка
+        const sidebar = document.getElementById('sidebar'); // сайдбар
+        const wrapper = document.querySelector('.pop-product-wrapper'); // контейнер-обёртка
+        const navBar = document.querySelector('.open-bar-wrapper');
+        const content = document.querySelector('.pop-product-content')
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+            wrapper.classList.toggle('sidebar-open');
+            content.classList.toggle('adaptive-toggle-wrapper');
+            navBar.classList.toggle('nav-bar-flex-toggle');
+        });
+    </script>
+</body>
+
+</html>

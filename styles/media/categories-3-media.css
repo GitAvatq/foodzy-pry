@@ -1,0 +1,176 @@
+@media screen and (max-width:1230px) {
+
+    *::before,
+    *::after {
+        content: none !important;
+        display: none !important;
+    }
+
+    :root {
+        --container-horizontal-padding: 0 10px;
+    }
+
+
+    .container {
+        max-width: 1100px;
+    }
+
+    .heading-title {
+        margin: 0 0 0 -100px;
+    }
+
+    .product-prev {
+        top: -355px;
+        left: 14%;
+    }
+
+    .product-next {
+        left: 101%;
+    }
+
+    .discount-badge {
+        left: 10px;
+    }
+
+    .nav__list {
+        gap: 40px;
+    }
+
+    .bar {
+        gap: 10px;
+    }
+
+    .row {
+        gap: 4px;
+    }
+
+    .header__main {
+        justify-content: space-between;
+    }
+
+    .hero__wrapper {
+        background-size: contain;
+        background-position: top left;
+    }
+
+    .hero {
+        gap: 5%;
+    }
+
+    .hero__foot {
+        justify-content: space-around;
+        margin-top: -42px;
+        padding-bottom: 20px;
+    }
+
+    .heading-title {
+        width: 110%;
+    }
+
+    .heading-main-text {
+        margin-left: -100px;
+    }
+
+    .section-product-sliders {
+        width: 83%;
+    }
+
+    .list-products {
+        grid-template-columns: repeat(4, 205px);
+        column-gap: 5px;
+    }
+
+    .properties-wrapper {
+        padding: 3px;
+        padding-left: 9px;
+    }
+
+    .product {
+        width: 205px;
+    }
+
+    .add__cart__btn {
+        padding: 18px;
+        width: 185px;
+    }
+
+
+    .popular-products-list {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 270px);
+        gap: 15px;
+        margin-left: -2%;
+    }
+
+    .p-product {
+        width: 270px;
+    }
+
+
+    .list-products {
+        display: flex;
+    }
+
+    .heading__main {
+        width: 108%;
+    }
+
+    .bargain__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 266px);
+        column-gap: 18px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .deal-block-f,
+    .deal-block-s,
+    .deal-block-t,
+    .deal-block-fr {
+        img {
+            width: 245px;
+        }
+    }
+
+
+    .bargain-card-f,
+    .bargain-card-s,
+    .bargain-card-t,
+    .bargain-card-fr {
+        width: 270px;
+        left: -13px;
+    }
+
+    .text-flex-wrapper {
+        width: 104%;
+        gap: 69%;
+    }
+
+    .footer-thumbnails {
+        gap: 3px;
+    }
+
+    .f-inpt {
+        width: 300px;
+    }
+
+    .footer-thumbnails {
+        img {
+            width: 55px;
+        }
+    }
+
+    .footer-link-items {
+        font-size: 13px;
+    }
+
+    .footer-container {
+        grid-template-columns: 27% 18% 16% 48%;
+    }
+
+    .footer-about {
+        gap: 16px;
+    }
+}

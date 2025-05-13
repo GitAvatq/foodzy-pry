@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand&display=swap"
+        rel="stylesheet">
+    <title>Foodzy</title>
+</head>
+<img src="./assets/home-3/images/" alt="">
+<img src="./Pages/products.html" alt="">
+
+<body>
+    <header id="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header-top-nav navbar-default navbar-sticky">
+
+                    <div class="cr-category-toggle">
+                        <button class="toggle"><img src="./assets/home-1/icon/Icon.png" alt=" icon"></button>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__item__link" href="#">Home</a></li>
+                            <li class="nav__item"><select class="nav__select" onchange="location = this.value">
+                                    <option value="product">Category</option>
+                                    <option value="./Pages/categories-2.html">Desserts</option>
+                                    <option value="./Pages/categories-3.html">Fruits</option>
+                                </select>
+                            </li>
+                            <li class="nav__item"><select class="nav__select short-prdct" onchange="location = this.value">
+                                    <option value="products">Products</option>
+                                    <option value="./Pages/products.html">Products All</option>
+                                </select></li>
+                            <li class="nav__item"><select class="nav__select">
+                                    <option value="product">Pages</option>
+                                </select></li>
+                            <li class="nav__item"><select class="nav__select short" onchange="location = this.value">
+                                    <option value="../Pages/blogs.html">Blogs</option>
+                                    <option value="../Pages/blogs.html">Our Blogs</option>
+                                </select></li>
+                            <li class="nav__item"><select class="nav__select">
+                                    <option value="product">Elements</option>
+                                </select></li>
+                        </ul>
+                    </nav>
+                    <div class="phone__number">
+                        <a class="phone-num-link" href="tel:+123(456)(7890)">+123(456)(7890)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header__main__wrapper">
+            <div class="container">
+                <div class="header__main">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./assets/logos/logo.svg" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="search__items">
+                        <input class="search__inpt" type="text" placeholder="Search For items...">
+                        <select class="custom__select">
+                            <option value="all" selected>All Categories</option>
+                            <option value="dish">Main Dish</option>
+                            <option value="breakfast">Break Fast</option>
+                            <option value="dessert">Dessert</option>
+                            <option value="breakfast">Breakfast Food</option>
+                        </select>
+                        <a href="#" class="search_icon">
+                            <ion-icon name="search"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="bar">
+                        <div class="row">
+                            <a class="nav-page-link" href="./Pages/account-page.html">
+                                <svg class="bar-icon">
+                                    <use href="/assets/home-1/icon/sprite.svg#usser-icon" />
+                                </svg>
+                                <p>Account</p>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a class="nav-page-link" href="">
+                                <svg class="bar-icon">
+                                    <use href="/assets/home-1/icon/sprite.svg#heart" />
+                                </svg>
+                                <p>Wishlist</p>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <a class="nav-page-link" href="">
+                                <svg class="bar-icon">
+                                    <use href="/assets/home-1/icon/sprite.svg#shop-icon" />
+                                </svg>
+                                <p>Cart</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+    </header>
+
+    <main class="main">
+        <div class="hero__wrapper">
+            <div class="hero__own">
+                <div class="container">
+                    <div class="hero">
+                        <div class="hero__left"><img src="./assets/home-1/images/Heading-Text.png" alt="img"></div>
+                        <div class="hero__right"><img src="./assets/home-1/images/turkey.png" alt="img"></div>
+                    </div>
+
+                    <div class="hero__foot">
+                        <div class="btn__block">
+                            <ion-icon class="arrow" name="arrow-forward"></ion-icon>
+                            <button class="main_btn">Order Now</button>
+                        </div>
+
+                        <div class="contact__us">
+                            <p class="contacts">Follow Us Now</p>
+                            <div class="follow">
+                                <div class="contacts"><a href="#"><img src="./assets/home-1/icon/Facebook.png"
+                                            alt="icon"></a>
+                                </div>
+                                <div class="contacts"><a href="#"><img src="./assets/home-1/icon/Youtube.png"
+                                            alt="icon"></a>
+                                </div>
+                                <div class="contacts"><a href="#"><img src="./assets/home-1/icon/Twitter.png"
+                                            alt="icon"></a>
+                                </div>
+                                <div class="contacts"><a href="#"><img src="./assets/home-1/icon/Instagram.png"
+                                            alt="icon"></a>
+                                </div>
+
+                            </div>
+                            <p class="contacts">Call Us : 658-7854-9634 <br> <span>Typeyourwebsitehere</span></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <section class="section__wrapper">
+        <div class="container">
+
+
+            <div class="section-wrapper__content">
+                <div class="container">
+
+                    <p class="popular-subtitle">Customer Favorites</p>
+                    <h2 class="popular-title">Popular Catagories</h2>
+
+                    <div class="cards-category">
+                        <div class="card">
+                            <img class="card-img" src="./assets/home-1/icon/hambrger.svg" alt="icon">
+                            <h4 class="c-name">Main Dish</h4>
+                            <p class="c-descr">(86 dishes)</p>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="./assets/home-1/icon/pizza.svg" alt="icon">
+                            <h4 class="c-name">Break Fast</h4>
+                            <p class="c-descr">(12 break fast)</p>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="./assets/home-1/icon/dessert.svg" alt="icon">
+                            <h4 class="c-name">Dessert</h4>
+                            <p class="c-descr">(48 dessert)</p>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="./assets/home-1/icon/juice.svg" alt="icon">
+                            <h4 class="c-name">Browse All</h4>
+                            <p class="c-descr">(255 Items)</p>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="./assets/home-1/icon/breakfast.svg" alt="icon">
+                            <h4 class="c-name">Breakfast Food</h4>
+                            <p class="c-descr">(205 Items)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__wrapper">
+        <div class="section-product-sliders">
+            <div class="container">
+
+                <div class="heading__main">
+                    <h2 class="heading-title">Daily Best Sells</h2>
+                    <div class="heading__end">
+                        <h4 class="heading-items">Featured</h4>
+                        <h4 class="heading-items">Popular</h4>
+                        <h4 class="heading-items">New added</h4>
+                    </div>
+                </div>
+
+                <div class="product__slider">
+                    <div class="key-to-shop">
+                        <h4 class="shop-descr">Bring nature
+                            into your
+                            home</h4>
+                        <button class="shop__btn">Shop Now</button>
+                    </div>
+                    <div class="list-products">
+                        <div class="product pr1" style="display: flex;">
+                            <span class="discount-badge">Save 35%</span>
+                            <img class="product-img" src="./assets/home-1/images/product.png" alt="product">
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+
+                        <div class="product pr2" style="display: flex;">
+                            <span class="discount-badge sale">Sale</span>
+                            <img class="product-img" src="./assets/home-1/images/product2.png" alt="product">
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+
+
+                        <div class="product pr3" style="display: flex;">
+                            <span class="discount-badge best-sale">Best Sale</span>
+                            <img class="product-img" src="./assets/home-1/images/product3.png" alt="product">
+
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+
+
+                        <div class="product pr4" style="display: flex;">
+                            <span class="discount-badge less">Best sale</span>
+                            <img class="product-img" src="./assets/home-1/images/product4.png" alt="product">
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+                        <div class="product pr4">
+                            <span class="discount-badge less">Best sale</span>
+                            <img class="product-img" src="./assets/home-1/images/product4.png" alt="product">
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+                        <div class="product pr4" style="display: flex;">
+                            <span class="discount-badge less">Best sale</span>
+                            <img class="product-img" src="./assets/home-1/images/product4.png" alt="product">
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+                        <div class="product pr4" style="display: flex;">
+                            <span class="discount-badge less">Best sale</span>
+                            <img class="product-img" src="./assets/home-1/images/product4.png" alt="product">
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+                        <div class="product pr4" style="display: flex;">
+                            <span class="discount-badge less">Best sale</span>
+                            <img class="product-img" src="./assets/home-1/images/product4.png" alt="product">
+                            <div class="properties-wrapper">
+                                <p class="hodo">Hodo Moods</p>
+                                <h3>All Natural Italian-Style
+                                    Chicken Meatballs</h3>
+                                <div class="star"></div>
+                                <div class="price-list">
+                                    <p class="product-price-after">$238.85 </p>
+                                    <p class="product-price-before">$245.8</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                                <h3 class="sold">Sold: 90/120</h3>
+
+                            </div>
+                            <button class="add__cart__btn">Add to Cart</button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <button class="product-slider-btn product-prev">
+                    <svg class="left-arrow">
+                        <use href="/assets/home-1/icon/sprite.svg#left-arrow-slide" />
+                    </svg>
+                </button>
+                <button class="product-slider-btn product-next">
+                    <svg class="right-arrow">
+                        <use href="/assets/home-1/icon/sprite.svg#right-arrow-slide" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__wrapper">
+        <div class="special-wrapper">
+            <div class="container">
+
+
+                <h3 class="special-dishes-text">Special Dishes</h3>
+
+                <div class="title-btn-wrapper">
+                    <h1 class="title-big">Standout Dishes <br> From Our Menu</h1>
+                    <div class="swap-content">
+                        <button class="icon-btn slide-btn-prev">
+                            <svg class="switch-btn">
+                                <use href="./assets/home-1/icon/sprite.svg#arrow-icon-left" />
+                            </svg>
+                        </button>
+                        <button class="icon-btn slide-btn-next">
+                            <svg class="switch-btn">
+                                <use href="./assets/home-1/icon/sprite.svg#arrow-icon-right" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu__sliders">
+                    <div class="menu__stand-slider" style="display: flex;">
+                        <span class="custom-shape">
+                            <svg class="heart-icon">
+                                <use href="./assets/home-1/icon/sprite.svg#heart" />
+                            </svg>
+                            <svg class="heart-icon-hover">
+                                <use href="./assets/home-1/icon/sprite.svg#heart-hover" />
+                            </svg>
+                        </span>
+                        <img src="./assets/home-1/images/fut-salad.png" alt="salad">
+
+                        <h4 class="dish-name">Fattoush salad</h4>
+                        <p class="dish-descr">Description of the item</p>
+                    </div>
+                    <div class="menu__stand-slider" style="display: flex;">
+                        <span class="custom-shape"><svg class="heart-icon">
+                                <use href="./assets/home-1/icon/sprite.svg#heart" />
+                            </svg>
+                            <svg class="heart-icon-hover">
+                                <use href="./assets/home-1/icon/sprite.svg#heart-hover" />
+                            </svg></span>
+
+                        <img src="./assets/home-1/images/egg-salad.png" alt="salad">
+
+                        <h4 class="dish-name">Vegetable salad</h4>
+                        <p class="dish-descr">Description of the item</p>
+                    </div>
+                    <div class="menu__stand-slider" style="display: flex;">
+                        <span class="custom-shape"><svg class="heart-icon">
+                                <use href="./assets/home-1/icon/sprite.svg#heart" />
+                            </svg>
+                            <svg class="heart-icon-hover">
+                                <use href="./assets/home-1/icon/sprite.svg#heart-hover" />
+                            </svg></span>
+
+                        <img src="./assets/home-1/images/vegetable-salad.png" alt="salad">
+
+                        <h4 class="dish-name">Egg vegi salad</h4>
+                        <p class="dish-descr">Description of the item</p>
+                    </div>
+                    <div class="menu__stand-slider" style="display: flex;">
+                        <span class="custom-shape"><svg class="heart-icon">
+                                <use href="./assets/home-1/icon/sprite.svg#heart" />
+                            </svg>
+                            <svg class="heart-icon-hover">
+                                <use href="./assets/home-1/icon/sprite.svg#heart-hover" />
+                            </svg></span>
+
+                        <img src="./assets/home-1/images/vegetable-salad.png" alt="salad">
+
+                        <h4 class="dish-name">Egg vegi salad</h4>
+                        <p class="dish-descr">Description of the item</p>
+                    </div>
+                    <div class="menu__stand-slider" style="display: flex;">
+                        <span class="custom-shape"><svg class="heart-icon">
+                                <use href="./assets/home-1/icon/sprite.svg#heart" />
+                            </svg>
+                            <svg class="heart-icon-hover">
+                                <use href="./assets/home-1/icon/sprite.svg#heart-hover" />
+                            </svg></span>
+
+                        <img src="./assets/home-1/images/vegetable-salad.png" alt="salad">
+
+                        <h4 class="dish-name">Egg vegi salad</h4>
+                        <p class="dish-descr">Description of the item</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section__wrapper">
+        <div class="container">
+            <div class="deals-day-content">
+                <div class="text-flex-wrapper">
+                    <h4 class="deal-title">Deals Of The Day</h4>
+                    <p class="deal-details">All Deals ></p>
+                </div>
+
+                <div class="bargain__wrapper">
+
+                    <div class="deal-block-f deal-bl-1">
+                        <div class="banner-bargain">
+                            <img src="./assets/home-1/images/banner-1.png" alt="banner">
+                        </div>
+
+                        <div class="bargain-card-f">
+                            <h4>Seeds of Change Organic Quinoa,
+                                Brown, & Red Rice</h4>
+                            <div class="star"></div>
+                            <p>By NestFood</p>
+
+                            <div class="add-contant">
+                                <div class="price-list">
+                                    <p class="product-price-after">$32.85</p>
+                                    <p class="product-price-before">$33.8</p>
+                                </div>
+                                <button class="deal-add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deal-block-s deal-bl-2">
+                        <div class="banner-bargain">
+                            <img src="./assets/home-1/images/banner-2.png" alt="banner">
+                        </div>
+
+                        <div class="bargain-card-s">
+                            <h4>Seeds of Change Organic Quinoa,
+                                Brown, & Red Rice</h4>
+                            <div class="star"></div>
+                            <p>By NestFood</p>
+
+                            <div class="add-contant">
+                                <div class="price-list">
+                                    <p class="product-price-after">$32.85</p>
+                                    <p class="product-price-before">$33.8</p>
+                                </div>
+                                <button class="deal-add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deal-block-t deal-bl-3">
+                        <div class="banner-bargain">
+                            <img src="./assets/home-1/images/banner-3.png" alt="banner">
+                        </div>
+
+                        <div class="bargain-card-t">
+                            <h4>Seeds of Change Organic Quinoa,
+                                Brown, & Red Rice</h4>
+                            <div class="star"></div>
+                            <p>By NestFood</p>
+
+                            <div class="add-contant">
+                                <div class="price-list">
+                                    <p class="product-price-after">$32.85</p>
+                                    <p class="product-price-before">$33.8</p>
+                                </div>
+                                <button class="deal-add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deal-block-fr deal-bl-4">
+                        <div class="banner-bargain">
+                            <img src="./assets/home-1/images/banner-4.png" alt="banner">
+                        </div>
+
+                        <div class="bargain-card-fr">
+                            <h4>Seeds of Change Organic Quinoa,
+                                Brown, & Red Rice</h4>
+                            <div class="star"></div>
+                            <p>By NestFood</p>
+
+                            <div class="add-contant">
+                                <div class="price-list">
+                                    <p class="product-price-after">$32.85</p>
+                                    <p class="product-price-before">$33.8</p>
+                                </div>
+                                <button class="deal-add-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__wrapper">
+        <div class="container">
+            <div class="advantage-wrapper">
+                <div class="img">
+                    <img src="./assets/home-1/images/advantage-img.png" alt="icon">
+                </div>
+
+                <div class="choose-us">
+                    <h2 class="why-title">Why People Choose us?</h2>
+
+                    <div class="our-highlights">
+                        <div class="services">
+
+                            <div class="service-route">
+                                <img class="serv-img" src="./assets/home-1/icon/moto.svg" alt="moto icon">
+                                <div class="text-content">
+                                    <h4 class="srv-title">Convenient and Reliable</h4>
+                                    <p class="serv-dsc">Whether you dine in, take out, or order delivery, our service is
+                                        convenient, fast, and reliable, making mealtime hassle-free.</p>
+                                </div>
+                            </div>
+
+                            <div class="service-route">
+                                <img class="serv-img" src="./assets/home-1/icon/books.svg" alt="moto icon">
+
+                                <div class="text-content">
+                                    <h4 class="srv-title">Convenient and Reliable</h4>
+                                    <p class="serv-dsc">Whether you dine in, take out, or order delivery, our service is
+                                        convenient, fast, and reliable, making mealtime hassle-free.</p>
+                                </div>
+                            </div>
+
+                            <div class="service-route">
+                                <img class="serv-img" src="./assets/home-1/icon/burger.svg" alt="moto icon">
+                                <div class="text-content">
+                                    <h4 class="srv-title">Convenient and Reliable</h4>
+                                    <p class="serv-dsc">Whether you dine in, take out, or order delivery, our service is
+                                        convenient, fast, and reliable, making mealtime hassle-free.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="cta-footer-wrapper">
+                <div class="cta-form-content">
+                    <h3 class="cta-title">Stay home & get your daily <br>
+                        needs from our shop</h3>
+                    <p class="cta-descr">Start You're Daily Shopping with <span>Nest Mart</span></p>
+
+                    <form class="cta-form" action="#" method="post">
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Enter your email" required>
+                            <img class="icon-plane" src="./assets/home-1/icon/plane-cta.png" alt="icon">
+                            <button type="submit" class="submit-btn">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <img class="cta-img" src="./assets/home-1/images/cta-imgpng.png" alt="cta">
+                <!--    </div>-->
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <footer>
+        <div class="container">
+            <div class="features">
+                <div class="feature-card">
+                    <img src="./assets/home-1/icon/f-icon.png" alt="Цены">
+                    <div>
+                        <h4 class="f-text">Best prices & offers</h4>
+                        <p class="f-opts">Orders $50 or more</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/home-1/icon/f-icon-del.png" alt="Доставка">
+                    <div>
+                        <h4 class="f-text">Free delivery</h4>
+                        <p class="f-opts">24/7 amazing services</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/home-1/icon/f-icon-deal.png" alt="Скидки">
+                    <div>
+                        <h4 class="f-text">Great daily deal </h4>
+                        <p class="f-opts">When you sign up</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/home-1/icon/f-icon-ff.png" alt="Ассортимент">
+                    <div>
+                        <h4 class="f-text">Wide assortment</h4>
+                        <p class="f-opts">Mega Discounts</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./assets/home-1/icon/f-icon-box.png" alt="Возврат">
+                    <div>
+                        <h4 class="f-text">Easy returns</h4>
+                        <p class="f-opts">Within 30 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+
+                <div class="footer-about">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./assets/logos/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <p class="about-descr footer-link-items">
+                        FoodTrove is the biggest market of grocery products. Get your daily needs from our store.
+                    </p>
+                    <p class="footer-link-items"><span class="f-i-wrapper"><svg class="icon-footer">
+                                <use href="./assets/home-1/icon/sprite.svg#location" />
+                            </svg></span>51 Green St.Huntington ohaio beach ontario, NY
+                        11746 KY 4783, USA.
+                    </p>
+                    <p class="footer-link-items"><span class="f-i-wrapper"><svg class="icon-footer">
+                                <use href="./assets/home-1/icon/sprite.svg#email" />
+                            </svg></span>example@email.com
+                    </p>
+                    <p class="footer-link-items"><span class="f-i-wrapper"><svg class="icon-footer">
+                                <use href="./assets/home-1/icon/sprite.svg#call" />
+                            </svg></span>+91 123 4567890
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="link-title">Company</h4>
+                    <ul class="footer-section-hr">
+                        <li><a class="footer-link-items" href="./Pages/about.html">About Us</a></li>
+                        <li><a class="footer-link-items" href="#">Delivery Information</a></li>
+                        <li><a class="footer-link-items" href="#">Privacy Policy</a></li>
+                        <li><a class="footer-link-items" href="#">Terms & Conditions</a></li>
+                        <li><a class="footer-link-items" href="#">contact Us </a></li>
+                        <li><a class="footer-link-items" href="#">Support Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-categories">
+                    <h4 class="categories-title">Category</h4>
+
+                    <ul class="footer-section-hr">
+                        <li><a class="footer-link-items" href="#">Dairy & Bakery</a></li>
+                        <li><a class="footer-link-items" href="#">Fruits & Vegetable</a></li>
+                        <li><a class="footer-link-items" href="#">Snack & Spice</a></li>
+                        <li><a class="footer-link-items" href="#">Juice & Drinks</a></li>
+                        <li><a class="footer-link-items" href="#">Chicken & Meat</a></li>
+                        <li><a class="footer-link-items" href="#">Fast Food</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>Subscribe Our Newsletter</h4>
+                    <form>
+                        <input class="f-inpt" type="text" placeholder="Search here...">
+                    </form>
+                    <div class="footer-social">
+                        <a href="#"><img class="f-icons-bl" src="./assets/home-1/icon/fbook.svg" alt="Facebook"></a>
+                        <a href="#"><img class="f-icons-bl" src="./assets/home-1/icon/twtr.svg" alt="Twitter"></a>
+                        <a href="#"><img class="f-icons-bl" src="./assets/home-1/icon/ball.svg" alt="Icon"></a>
+                        <a href="#"><img class="f-icons-bl" src="./assets/home-1/icon/inst.svg" alt="Instagram"></a>
+                        <div class="footer-thumbnails">
+                            <img src="./assets/home-1/images/footer-img1.png" alt="Product 1">
+                            <img src="./assets/home-1/images/footer-img2.png" alt="Product 2">
+                            <img src="./assets/home-1/images/footer-img3.png" alt="Product 3">
+                            <img src="./assets/home-1/images/footer-img4.png" alt="Product 4">
+                            <img src="./assets/home-1/images/footer-img5.png" alt="Product 5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span>Foodzy</span> , All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <br><br><br><br><br>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <script src="./js/main-sliders.js"></script>
+</body>
+
+</html>
